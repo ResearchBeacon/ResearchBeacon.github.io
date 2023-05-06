@@ -1,1 +1,0 @@
-# researchbeacon.github.io
