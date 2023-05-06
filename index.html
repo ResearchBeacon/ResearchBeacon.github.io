@@ -2,20 +2,66 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/ResearchBeacon/researchbeacon.github.io/main/ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/ResearchBeacon/researchbeacon.github.io/main/ico/favicon-16x16.png">
-    <link rel="manifest" href="/ico/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/ico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://raw.githubusercontent.com/ResearchBeacon/researchbeacon.github.io/main/ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://raw.githubusercontent.com/ResearchBeacon/researchbeacon.github.io/main/ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/ico/site.webmanifest" />
     <title>The Research Beacon</title>
     <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap"
+      rel="stylesheet"
+    />
     <script src="/script.js" defer></script>
+    <script>
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      };
+    </script>
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
   </head>
   <body>
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
-    <md-block>
-# The Research Beacon
-
-The Research Beacon is an independent news source, dedicated to providing well-researched and sourced journalism, commentary, and opinion.
-    </md-block>
+    <img
+      id="logo"
+      src="https://raw.githubusercontent.com/ResearchBeacon/researchbeacon.github.io/main/ico/apple-touch-icon.png"
+      width="60"
+    />
+    <div class="heading">
+      <a href="/" class="title">The Research Beacon</a>
+    </div>
+    <div id="nav">
+      <a href="/news" class="nav">News</a>
+      <a href="/commentary" class="nav">Commentary</a>
+      <a href="/reports" class="nav">Reports</a>
+      <a href="/conspiracy" class="nav">Conspiracy</a>
+      <a href="/tips" class="nav">Tips</a>
+    </div>
+    <img
+      src="https://raw.githubusercontent.com/ResearchBeacon/researchbeacon.github.io/main/images/10872824.jpg"
+      width="100%"
+      style="top: 0px; clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0)"
+    />
+    <h1 id="title">DISPELLING THE LIES</h1>
+    <div class="content">
+      <md-block>
+        # The Research Beacon The Research Beacon is an independent news source,
+        dedicated to providing well-researched and sourced journalism,
+        commentary, and opinion.
+      </md-block>
+    </div>
   </body>
 </html>
